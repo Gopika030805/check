@@ -1,0 +1,80 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.login-option {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width:620px;
+    margin:25vh auto;
+    border:1px solid black;
+}
+.options{
+    display:flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.option-std-tch .icon {
+    font-size: 100px;
+    color: rgba(5, 1, 14, 0.745);
+}
+.option-std-tch {
+    margin:20px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.option-std-tch button {
+    font-size: 15px;
+    border-radius: 30px;
+    padding:0px 25px;
+    color:rgb(255, 234, 0);
+    font-weight:bold;
+    border:none;
+    outline:none;
+    background-color: black;
+    margin:20px 0px;
+    transition: all 0.3s ease;
+    cursor:pointer;
+}
+.option-std-tch button:hover{
+    color: black;
+    background-color:rgb(255, 234, 0) ; 
+    transform:translateY(-10px) ;
+
+}
+@media screen and (max-width:600px) {
+    .login-option {
+        max-width:320px;
+        border:none;
+        margin:15px auto 0px auto;
+    }
+    .login-option h1 {
+        margin:60px;
+    }
+    .options{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top:50px;
+    }
+    .login-option {
+        border:2px solid black;
+        padding:20px;
+    }
+    .option-std-tch .icon {
+        font-size: 80px;
+    }
+    .option-std-tch button {
+        font-size: 12px;
+    }
+    .option-std-tch {
+        margin:0px;
+    }
+}

@@ -1,0 +1,123 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.wrapper h1{
+    text-align: center;
+    font-size: 40px;
+    
+}
+.login-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:100px;
+}
+.wrapper { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 550px;
+    height: 500px;
+    border: 1px solid grey;
+    margin:auto 25px;
+    padding:20px 40px;
+    
+}
+.input-user{
+    position: relative;
+    margin:20px 0px;
+
+}
+input::placeholder{
+    font-size:1rem;
+    
+    color: rgb(188, 185, 185);
+}
+.input-user input {
+    width:100%;
+    max-width: 600px;
+    height:40px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    outline:0;
+    overflow-x: hidden;
+    padding:5px 0px 5px 10px;
+    font-size: 1rem;
+
+}
+.input-user img{
+    width:25px;
+    position: absolute;
+    right:5px;
+    z-index:1;
+    top:15px;
+}
+.submit-div button{
+    width:100%;
+    padding:10px 10px;
+    margin:20px 0px;
+    border-radius: 20px;
+    border:none;
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+    background-image: linear-gradient(180deg , white, lightgrey);
+    transition: all 0.3s ease-in-out;
+}
+.forgot-pwd {
+    margin:20px 0px;
+}
+.submit-div button:hover{
+    background-image: linear-gradient(60deg , rgb(197, 194, 194),white);
+}
+.nav-back {
+    position: absolute;
+    left:10px;
+    top:20px;
+    
+}
+.nav-back {
+    background-color: transparent;
+    border:none;
+
+}
+.back-arrow-btn {
+    font-size: 30px;
+    color:rgb(147, 138, 138);
+}
+.forgot-pwd-btn {
+    border:none;
+    color:purple;
+    background-color: transparent;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.forgot-pwd-btn:hover{
+    text-decoration: underline;
+}
+.finish-update-span:nth-child(2){
+    width:100px;
+    background-color:  rgb(255, 230, 0);
+    border-radius: 5px;
+    margin: 30px 0px 30px 10px;
+    height:5px;
+}
+.finish-update-span:nth-child(1){
+    width:100px;
+    background-color: black;
+    border-radius: 5px;
+    margin: 30px 0px 30px 10px;
+    height:5px;
+}
+.finish-update-span{
+    width:100px;
+    background-color: black;
+    border-radius: 5px;
+    margin: 30px 0px 30px 10px;
+    height:5px;
+}
